@@ -6,3 +6,6 @@ jobs:
     steps:
       - name: Print Greeting message
         run: echo Hello, GitHub!
+        
+      - name: Today?
+        run: date
