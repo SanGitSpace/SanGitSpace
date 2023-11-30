@@ -13,8 +13,5 @@ The type of runner that the job will run on
 Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Runs a single command using the runners shell
-      - name:Print Greeting message
-        run: |
-         echo Hello, GitHub!
-         echo Today is 
-         echo date
+      - name: Print Greeting message
+        run: echo Hello, GitHub!
